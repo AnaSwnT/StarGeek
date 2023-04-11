@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;1,100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.logo {
+    width: 170px;
+}
+body {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(121,0,164,1) 0%, rgba(86,31,120,1) 50%, rgba(15,4,147,1) 100%);
+    font-size: 20px;
+    max-width: fit-content;
+}
+select {
+    color:white;
+    width: 200px;
+    height: 35px;
+    background-color: #0F0493;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin-left: 500px;
+    margin-right: 30px;
+}
+.filme {
+    background-color: #7900A4;
+    color: white;
+    text-decoration: none;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 12px;
+    margin-left: 60px;
+}
+.serie {
+    background-color: #7900A4;
+    color: white;
+    text-decoration: none;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 12px;
+    margin-left: 30px;
+}
+.anime {
+    background-color: #7900A4;
+    color: white;
+    text-decoration: none;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 12px;
+    margin-left: 30px;
+}
+.nvttl {
+    background-color: #0F0493;
+    border: 1px solid black;
+    color: white;
+    text-decoration: none;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 5px;
+    padding-bottom:5px;
+    border-radius: 5px;
+}
+.sair {
+    background-color: #090538;
+    color: white;
+    text-decoration: none;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 8px;
+    margin-left: 20px;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.seriess {
+    display: flex;
+    gap: 10px;
+    overflow: scroll;
+
+}
+.seriess::-webkit-scrollbar {
+    display: none;
+}
+.s1{
+    width: 100%;
+}
