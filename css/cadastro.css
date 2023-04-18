@@ -65,6 +65,9 @@ input {
     margin-top: 25px;
     margin-right: 20px;
 }
+.continuar:hover {
+    background-color: #5F2574;
+}
 .cadastrar {
     background-color: #8E339D;
     color: white;
@@ -75,6 +78,9 @@ input {
     padding-top: 10px;
     padding-bottom: 10px;
     margin-top: 25px;
+}
+.cadastrar:hover {
+    background-color:#5F2574 ;
 }
 .checkbox {
     width: 30px;

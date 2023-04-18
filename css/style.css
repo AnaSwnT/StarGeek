@@ -31,6 +31,9 @@ body {
     padding-top: 8px;
     padding-bottom: 8px;
 }
+.continuar:hover {
+    background-color: #5F2574;
+}
 .prncpl {
     margin-left: 30%;
     margin-top: 10%;
@@ -91,6 +94,9 @@ hr {
     padding-bottom: 27px;
     border-radius: 1px 6px 6px 1px ;
 }
+.vamosla:hover {
+    background-color: #4338BC;
+}
 input {
     width: 570px;
     height: 80px;
@@ -119,4 +125,91 @@ input {
     margin-bottom: 30px;
     color: white;
     font-family: 'Chakra Petch', sans-serif;
+}
+.div3 {
+    display: flex;
+    justify-content: space-between;
+}
+.disp {
+    margin-top: 25%;
+    margin-left: 5%;
+}
+.disponiveis {
+    color: white;
+}
+.paragraf {
+    color: white;
+}
+.fot {
+    margin-top: 15%;
+}
+.image {
+    width: 400px;
+    height: 200px;
+}
+.div4 {
+    background: url(/img/animes\ 1.png);
+    width: 100%;
+    height: 768px;
+
+}
+.gifs {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+.tit {
+    color: white;
+}
+.escrito {
+    text-align: center;
+}
+.duvidas {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+.duvida {
+    background-color: #0C064E;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;    
+    margin-top: 10px;
+}
+.duvida:hover {
+    background-color: #312A7E ;
+}
+.emaill {
+    margin-top: 150px;
+    text-align: center;
+}
+.titulo {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 50px;
+    margin-top: 150px;
+}
+.slaa {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+li {
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.botao {
+    color: white;
+}
+.duvi {
+    margin-top: 100px;
+    margin-left: 60px;
+    color: white;
+    margin-bottom: 50px;
+    font-size: 20px;
 }

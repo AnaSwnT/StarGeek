@@ -64,6 +64,9 @@ input {
     padding-bottom: 15px;
     margin-top: 25px;
 }
+.continuar:hover {
+    background-color: #5F2574;
+}
 .checkbox {
     width: 30px;
     height: 20px;
